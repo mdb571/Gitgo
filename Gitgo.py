@@ -3,7 +3,7 @@ import requests
 import bs4 
 import argparse
 import sys
-# from colorama import Fore, Back, Style
+from colorama import Fore, Back, Style
 
 def gitpinnedrepo(username):
 	res = requests.get("https://github.com/%s" %(username)).content
